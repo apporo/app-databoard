@@ -1,0 +1,27 @@
+{
+  "name": "app-databoard",
+  "version": "0.0.1",
+  "description": "Data management dashboard",
+  "homepage": "https://github.com/devebot/app-databoard.git",
+  "author": {
+    "name": "apporo",
+    "email": "apporo@devebot.com",
+    "url": "http://devebot.com"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "0.10 || 0.11 || 0.12 || 4"
+  },
+  "keywords": [
+    "devebot",
+    "devebot-plugin"
+  ],
+  "devDependencies": {
+    "app-webserver": "^0.0.1",
+    "devebot": "^0.1.14"
+  },
+  "peerDependencies": {
+    "app-webserver": "^0.0.1",
+    "devebot": "^0.1.14"
+  }
+}
