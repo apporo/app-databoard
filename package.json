@@ -1,7 +1,7 @@
 {
   "name": "app-databoard",
-  "version": "0.0.1",
-  "description": "Data management dashboard",
+  "version": "0.0.2",
+  "description": "Devebot backend dashboard layerware",
   "homepage": "https://github.com/devebot/app-databoard.git",
   "author": {
     "name": "apporo",
@@ -17,11 +17,17 @@
     "devebot-plugin"
   ],
   "devDependencies": {
-    "app-webserver": "^0.0.1",
-    "devebot": "^0.1.14"
+    "app-datamodel": "^0.0.1",
+    "app-webserver": "^0.0.3",
+    "devebot": "^0.1.16"
   },
   "peerDependencies": {
-    "app-webserver": "^0.0.1",
-    "devebot": "^0.1.14"
+    "app-datamodel": "^0.0.1",
+    "app-webserver": "^0.0.3",
+    "devebot": "^0.1.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express-session": "^1.13.0"
   }
 }
