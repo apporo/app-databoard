@@ -1,0 +1,22 @@
+{
+  "name": "app-databoard",
+  "version": "1.0.0",
+  "authors": [
+    "Apporo"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-admin": "~0.9.1"
+  }
+}
