@@ -1,6 +1,6 @@
 {
   "name": "app-databoard",
-  "version": "0.0.3-alpha.1",
+  "version": "0.1.3",
   "description": "Devebot backend dashboard layerware",
   "homepage": "https://github.com/devebot/app-databoard.git",
   "author": {
@@ -17,18 +17,14 @@
     "devebot-plugin"
   ],
   "peerDependencies": {
-    "app-datamodel": "^0.0.1",
-    "app-webserver": "^0.0.5",
-    "devebot": "^0.1.19"
+    "app-datamodel": "^0.1.0",
+    "app-webserver": "^0.1.5",
+    "devebot": "^0.1.20"
   },
   "dependencies": {
-    "app-datamodel": "^0.0.1",
-    "app-webserver": "^0.0.5",
-    "bower": "^1.6.8",
-    "devebot": "^0.1.19",
+    "app-datamodel": "^0.1.0",
+    "app-webserver": "^0.1.5",
+    "devebot": "^0.1.20",
     "ejs": "^2.4.1"
-  },
-  "scripts": {
-    "postinstall": "node_modules/.bin/bower install"
   }
 }
